@@ -19,7 +19,6 @@ class LoginControllerTest {
     private TextField usernameField;
     private PasswordField passwordField;
     private Stage mockStage;
-
     @BeforeEach
     void setUp() {
         loginController = new LoginController();
